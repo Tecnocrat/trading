@@ -1,0 +1,29 @@
+{
+  "name": "trading",
+  "version": "1.0.0",
+  "description": "Custom crypto trading app",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tecnocrat/trading.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tecnocrat/trading/issues"
+  },
+  "homepage": "https://github.com/Tecnocrat/trading#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "ethers": "^5.8.0",
+    "hardhat": "^2.24.2"
+  }
+}

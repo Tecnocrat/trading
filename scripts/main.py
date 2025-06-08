@@ -1,3 +1,7 @@
+import os
+print("🔗 RPC URL:", os.getenv("BSC_RPC_URL"))
+print("✅ Dependencies OK – ready to trade!")
+
 import logging
 from liquidity import LiquidityPoolConnector
 from order_manager import OrderManager
